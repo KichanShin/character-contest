@@ -1,5 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Dokdo&family=Nanum+Pen+Script&display=swap");
 
+@keyframes ani {
+  from {
+    transform: scale(0.7);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes ani1 {
+  from {
+    transform: scale(0.7);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes ani2 {
+  from {
+    transform: scale(0.7);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -7,7 +34,7 @@ html {
   font-size: 10px;
 }
 body {
-  background-color: #eee;
+  background-color: rgb(148, 220, 164);
 }
 
 h1 {
@@ -55,6 +82,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: ;
 }
 .ear11,
 .ear22 {
@@ -115,6 +143,7 @@ h1 {
   /* display: flex;
   justify-content: center;
   align-items: center; */
+  animation: ani 0.5s ease-in-out 1s infinite backwards;
 }
 .eye11,
 .eye22 {
@@ -134,6 +163,7 @@ h1 {
   right: 10px;
   border-radius: 50%;
   background-color: black;
+  animation: ani 0.5s ease-in-out 1s infinite backwards;
 }
 
 .skin1 {
@@ -144,6 +174,7 @@ h1 {
   left: 48px;
   background-color: pink;
   border-radius: 50%;
+  animation: ani1 0.5s ease-in-out 1s infinite both;
 }
 
 .skin2 {
@@ -153,6 +184,7 @@ h1 {
   left: 250px;
   background-color: pink;
   border-radius: 50%;
+  animation: ani2 0.5s ease-in-out 1s infinite both;
 }
 
 .nose {
@@ -163,4 +195,17 @@ h1 {
   bottom: 70px;
   background-color: red;
   border-radius: 0 0 50% 50%;
+  animation: ani 0.5s ease-in-out 1s infinite both;
+}
+
+.nose:hover {
+  transform: scale(0.7);
+}
+
+.skin1:hover {
+  transform: scale(0.7);
+}
+
+.skin2:hover {
+  transform: scale(0.7);
 }
