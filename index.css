@@ -143,7 +143,7 @@ h1 {
   /* display: flex;
   justify-content: center;
   align-items: center; */
-  animation: ani 0.5s ease-in-out 1s infinite backwards;
+  /* animation: ani 0.5s ease-in-out 1s infinite backwards; */
 }
 .eye11,
 .eye22 {
@@ -163,7 +163,7 @@ h1 {
   right: 10px;
   border-radius: 50%;
   background-color: black;
-  animation: ani 0.5s ease-in-out 1s infinite backwards;
+  /* animation: ani 0.5s ease-in-out 1s infinite backwards; */
 }
 
 .skin1 {
